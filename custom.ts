@@ -1,3 +1,4 @@
+//% weight=1000 color=#000 icon=""
 namespace blair {
     /**
     * Computes the famous Fibonacci number sequence!
@@ -8,7 +9,8 @@ namespace blair {
     }
 
     /**
-    * Plays the Star Wars theme
+    * TODO: Plays the Star Wars theme
+    * @param times to play the loop, defaults to 2
     */ 
     //% block
     export function starWarsTheme(times: number)  {
